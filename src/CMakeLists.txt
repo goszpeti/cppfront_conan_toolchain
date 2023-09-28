@@ -8,13 +8,4 @@ target_sources(conan_explorer
     utils.h2
 )
 
-# target_sources(main
-#   PUBLIC
-#     FILE_SET all_my_modules TYPE CXX_MODULES FILES
-#     #BASE_DIRS ${CMAKE_BINARY_DIR}/_cppfront 
-#     utils.mpp
-# )
-
-# target_link_libraries(main PRIVATE utils)
-
 install(TARGETS conan_explorer)

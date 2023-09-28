@@ -80,5 +80,4 @@ main: (args) -> int =
     // print(  "s* is Circle? ", s* is Circle );
     // print(  "s* is Square? ", s* is Square );
     hide_terminal();
-    system("C:/Repos/conan_app_launcher/.venv/Scripts/python.exe -m conan_app_launcher");
 }

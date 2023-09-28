@@ -1,0 +1,13 @@
+#ifdef WIN32
+#include "windows.h";
+#endif
+
+print: ( msg: std::string) =
+    std::cout << msg << "\n";
+
+void hide_terminal(){
+    #ifdef WIN32
+        auto hWnd = GetConsoleWindow();
+        ShowWindow( hWnd, SW_HIDE );
+    #endif
+}
